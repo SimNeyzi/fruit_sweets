@@ -21,6 +21,7 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import YUFKA from "../assets/YUFKA.png";
 import Sim from "../assets/Sim.png";
+import natural_food from "../assets/natural_food.png";
 import gericht from "../assets/gericht.png";
 
 export default {
@@ -48,4 +49,5 @@ export default {
   YUFKA,
   gericht,
   Sim,
+  natural_food,
 };
