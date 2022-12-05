@@ -23,6 +23,7 @@ import YUFKA from "../assets/YUFKA.png";
 import Sim from "../assets/Sim.png";
 import natural_food from "../assets/natural_food.png";
 import gericht from "../assets/gericht.png";
+import clover from "../assets/clover.png";
 
 export default {
   bg,
@@ -50,4 +51,5 @@ export default {
   gericht,
   Sim,
   natural_food,
+  clover,
 };

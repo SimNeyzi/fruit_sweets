@@ -3,11 +3,11 @@ import { images } from "../../constants";
 const SubHeading = ({ title }) => {
   return (
     <div style={{ marginBottom: "1rem", color: "white" }}>
-      <p className="p_cormorant">{title}</p>
+      <p className="p__cormorant">{title}</p>
       <img
         src={images.natural_food}
         alt="natural food icon"
-        className="spoon__img"
+        className="natural__img"
       />
     </div>
   );

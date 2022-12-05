@@ -8,12 +8,12 @@ const Header = () => {
   return (
     <div className="app__header app__wrapper section__padding" id="home">
       <div className="app__wrapper_info">
-        <SubHeading title="Chase The New Flavours" />
-        <h1 className="app__header-h1">Assorted Natural Sweets</h1>
+        <SubHeading title="Chase The Seasonal Flavours" />
+        <h1 className="app__header-h1">Pleasing All Natural Sweets</h1>
         <p className="p__opensans" style={{ margin: "2rem 0" }}>
           Sit tellus lobortis sed senectus vivamus molestie. Condimentum
           volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
-          aliquam amet tellus{" "}
+          aliquam amet tellus
         </p>
         <button type="button" className="custom__button">
           Explore Products

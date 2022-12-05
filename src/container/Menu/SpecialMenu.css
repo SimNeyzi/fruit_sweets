@@ -1,0 +1,51 @@
+.app__speacialMenu {
+  flex-direction: column;
+  background: var(--color-black);
+}
+
+.app__speacialMenu-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.app__speacialMenu-menu {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.app__speacialMenu-menu_heading {
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 58.5px;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+
+.app__speacialMenu-menu_wine,
+.app__speacialMenu-menu_cocktail {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__speacialMenu-menu_img {
+  margin: 2rem 4rem;
+}
+
+.app__speacialMenu-menu_img img {
+  /* width: 100%; */
+  height: 400px;
+  width: auto;
+}
+
+.app__speacialMenu-menu_items {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 100%;
+}

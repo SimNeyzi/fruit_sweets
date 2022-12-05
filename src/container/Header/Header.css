@@ -6,9 +6,9 @@
   font-family: var(--font-base);
   color: var(--color-golden);
   letter-spacing: 0.04em;
-  text-transform: uppercase;
-  line-height: 117px;
-  font-size: 85px;
+  /* text-transform: uppercase; */
+  line-height: 80px;
+  font-size: 65px;
 }
 
 .app__header-img img {
