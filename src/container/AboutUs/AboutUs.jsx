@@ -5,7 +5,10 @@ import "./AboutUs.css";
 
 const AboutUs = () => {
   return (
-    <div className="app__aboutus flex__center section__padding" id="about">
+    <div
+      className="app__aboutus flex__center section__padding app__wrapper"
+      id="about"
+    >
       <div className="app__aboutus-overlay flex__center"></div>
       <div className="app__aboutus-content flex__center">
         <div className="app__aboutus-content_about">
