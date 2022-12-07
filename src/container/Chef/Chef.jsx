@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import { SubHeading } from "../../components";
+import { images } from "../../constants";
 
-import './Chef.css';
+import "./Chef.css";
 
-const Chef = () => (
-  <div>
-    Chef
-  </div>
-);
+const Chef = () => {
+  return (
+    <div className="app__wrapper section__padding">
+      <div>Chef</div>
+    </div>
+  );
+};
 
 export default Chef;
