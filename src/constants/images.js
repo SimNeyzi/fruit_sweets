@@ -24,9 +24,11 @@ import Sim from "../assets/Sim.png";
 import natural_food from "../assets/natural_food.png";
 import gericht from "../assets/gericht.png";
 import clover from "../assets/clover.png";
+import collection_img from "../assets/collection_img.jpeg";
 
 export default {
   bg,
+  collection_img,
   chef,
   G,
   gallery01,

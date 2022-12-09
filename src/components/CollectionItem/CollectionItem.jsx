@@ -7,7 +7,7 @@ function Collectionitem() {
       <div className="app__collectionItem-content">
         <div className="app__collectionItem-card">
           <div className="app__collectionItem-image">
-            <img src={images.award01} alt="product" />
+            <img src={images.collection_img} alt="product" />
           </div>
           <div className="app__collectionItem-info">
             <div className="app__collection-name">

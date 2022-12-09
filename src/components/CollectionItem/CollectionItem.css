@@ -1,0 +1,24 @@
+.app__collectionItem {
+  display: flex;
+}
+
+.app__collectionItem-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.app__collectionItem-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.app__collectionItem-image {
+  margin: 2rem;
+}
+
+.app__collectionItem-image img {
+  height: 100px;
+}

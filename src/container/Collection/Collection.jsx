@@ -11,12 +11,10 @@ function Collection() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
             pharetra adipiscing ultrices vulputate posuere tristique.
           </p>
-          <div className="app__collection-images flex__center">
-            <CollectionItem />
-            <CollectionItem />
-            <CollectionItem />
-            <CollectionItem />
-          </div>
+          {/* <div className="app__collection-images flex__center">
+            {<CollectionItem />}
+          </div> */}
+          <div className="headtext__cormorant">WIP</div>
         </div>
       </div>
     </div>
