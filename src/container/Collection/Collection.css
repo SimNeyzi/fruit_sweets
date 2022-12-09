@@ -1,0 +1,25 @@
+.app__collection {
+  border: 2px solid red;
+  position: relative;
+  background-color: var(--color-black);
+  display: flex;
+}
+
+.app__collection-overlay {
+  position: absolute;
+  inset: 1em;
+  display: flex;
+  justify-content: center;
+  border: 2px solid greenyellow;
+}
+
+.app__collection-content {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid yellow;
+  align-items: center;
+}
+
+.app__collection-images {
+  flex-wrap: wrap;
+}

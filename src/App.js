@@ -8,6 +8,7 @@ import {
   Gallery,
   Header,
   SpecialMenu,
+  Collection,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -19,6 +20,7 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Chef />
+    <Collection />
     <Gallery />
     <FindUs />
     <Footer />

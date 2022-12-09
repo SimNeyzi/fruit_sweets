@@ -5,11 +5,11 @@
   --font-alt: "Open Sans", sans-serif;
 
   --color-golden: #dcca87;
-  --color-black: #0c0c0c;
+  --color-white: #0c0c0c;
   --color-gray: #545454;
   --color-crimson: #f5efdb;
   --color-grey: #aaaaaa;
-  --color-white: #ffffff;
+  --color-black: #ffffff;
 }
 
 * {
