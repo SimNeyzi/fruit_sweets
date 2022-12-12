@@ -1,24 +1,76 @@
 .app__collectionItem {
-  display: flex;
+  border: 2px solid blue;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  width: 50%;
 }
 
 .app__collectionItem-content {
+  width: 100%;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin-top: 5rem;
-}
-
-.app__collectionItem-card {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  /* border: 2px solid purple; */
+  align-items: center;
 }
 
 .app__collectionItem-image {
-  margin: 2rem;
+  margin-bottom: 1rem;
+  /* border: 2px solid burlywood; */
 }
 
 .app__collectionItem-image img {
-  height: 100px;
+  height: 350px;
+}
+
+.app__collectionItem-name {
+  font-size: 18px;
+  width: 75%;
+  /* text-align: center; */
+  /* border: 2px solid navy; */
+}
+
+.app__collectionItem-addToCart {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 0.5rem;
+  width: 75%;
+  /* border: 2px solid seagreen; */
+}
+
+.app__collectionItem-addToCart_quantity {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  display: flex;
+  width: 30%;
+}
+
+.app__collectionItem-addToCart-plusBtn,
+.app__collectionItem-addToCart-minusBtn,
+.app__collectionItem-addToCart-input {
+  width: 35px;
+  text-align: center;
+  font-size: 26px;
+  cursor: pointer;
+  border: none;
+  line-height: 30px;
+}
+
+.app__collectionItem-addToCart-input {
+  font-size: 18px;
+  margin-left: 1rem;
+}
+
+.app__collectionItem-addToCart_button {
+  margin-left: 1rem;
+  width: 70%;
+}
+
+.app__collectionItem-addToCart_button button {
+  width: 100%;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  border: 1px solid lightgray;
 }

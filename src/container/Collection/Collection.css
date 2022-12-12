@@ -1,7 +1,6 @@
 .app__collection {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   width: 100%;
-  /* position: relative; */
   background-color: var(--color-black);
   display: flex;
   flex-direction: column;
@@ -9,15 +8,13 @@
   align-items: center;
 }
 
-.app__collection-overlay {
-  /* position: absolute; */
-  /* inset: 1em; */
-  display: flex;
-
-  /* border: 2px solid greenyellow; */
-}
-
 .app__collection-content {
   display: flex;
   flex-direction: column;
+  border: 2px solid greenyellow;
+}
+
+.app__collection-images {
+  display: flex;
+  flex-wrap: wrap;
 }
