@@ -1,5 +1,5 @@
 .app__collection {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
   background-color: var(--color-black);
   display: flex;
@@ -11,7 +11,7 @@
 .app__collection-content {
   display: flex;
   flex-direction: column;
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
 }
 
 .app__collection-images {

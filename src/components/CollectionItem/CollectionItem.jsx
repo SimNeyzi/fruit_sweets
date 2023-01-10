@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { images } from "../../constants";
 import "./CollectionItem.css";
 
 function Collectionitem() {
+  const [quantity, setQuantity] = useState(1);
+
   return (
     <div className="app__collectionItem">
       <div className="app__collectionItem-content">
@@ -19,19 +21,25 @@ function Collectionitem() {
             <button
               className="app__collectionItem-addToCart-minusBtn"
               type="button"
+              onClick={() =>
+                quantity > 1 ? setQuantity(quantity - 1) : setQuantity(1)
+              }
             >
               -
             </button>
             <input
               className="app__collectionItem-addToCart-input"
-              min="0"
-              max="10"
-              // value="1"
-              type="number"
+              value={quantity}
+              type="text"
+              onChange={(e) => {
+                setQuantity(e.target.value);
+              }}
             />
+
             <button
               className="app__collectionItem-addToCart-plusBtn"
               type="button"
+              onClick={() => setQuantity(quantity + 1)}
             >
               +
             </button>
