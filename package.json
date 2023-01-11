@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://simneyzi.github.io"
+    "homepage": "https://simneyzi.github.io/fruit-sweets"
   },
   "eslintConfig": {
     "extends": [
