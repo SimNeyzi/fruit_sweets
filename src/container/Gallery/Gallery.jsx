@@ -18,9 +18,9 @@ const Gallery = () => {
   const scroll = (direction) => {
     const { current } = scrollRef;
     if (direction === "left") {
-      current.scrollLeft -= 300;
+      current.scrollLeft -= 410;
     } else {
-      current.scrollLeft += 300;
+      current.scrollLeft += 410;
     }
   };
 
